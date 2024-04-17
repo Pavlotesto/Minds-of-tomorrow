@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    background-image: url("../img/banner-2.jpg");
+    background-size: cover;
+    padding: 0 10%;
+    text-align: center;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 100px;
+}
+
+
+.column1 {
+    float: left;
+    width: 100%;
+}
+
+.column1 h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+.column2 h1 {
+    font-size: 5vw;
+}
+
+.column2 p {
+    font-size: 3vw;
+}
+
+.column2 img {
+    width: 100%;
+}
