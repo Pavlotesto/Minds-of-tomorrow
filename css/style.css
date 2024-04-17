@@ -59,3 +59,15 @@ body {
 .column2 img {
     width: 100%;
 }
+.column4 {
+    float: left;
+    width: 25%;
+}
+
+.column4 p {
+    text-align: center;
+}
+
+.column4 img {
+    width: 100%;
+}
