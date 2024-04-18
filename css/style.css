@@ -119,3 +119,29 @@ body {
 .padding-der {
     padding-right: 20px;
 }
+@media screen and (max-width:700px) {
+    .flex:not(#header) {
+        display: block;
+    }
+    .column2 {
+        width: 100%;
+    }
+    .column4 {
+        width: 50%;
+    }
+    .header {
+        padding: 0 4%;
+    }
+    .header h1 {
+        font-size: 60px;
+    }
+    .column2 h1 {
+        font-size: 7vw;
+    }
+    .column2 p {
+        font-size: 5vw;
+    }
+    .column h1 {
+        font-size: 7vw;
+    }
+}
