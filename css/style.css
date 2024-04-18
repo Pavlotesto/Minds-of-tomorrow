@@ -71,3 +71,51 @@ body {
 .column4 img {
     width: 100%;
 }
+#section-2 {
+    background-color: #28eca5;
+}
+
+#section-2 p {
+    font-size: 15px;
+}
+
+#section-5 {
+    background-color: #46a6fc;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#footer p {
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.padding-0 {
+    padding: 0;
+    margin-bottom: -3px;
+}
+
+.padding-lat {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.padding-tb {
+    padding: 50px 8%;
+}
+
+.padding-all {
+    padding: 3%;
+}
+
+.padding-izq {
+    padding-left: 20px;
+}
+
+.padding-der {
+    padding-right: 20px;
+}
